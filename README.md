@@ -1,6 +1,6 @@
 # Time Series Analysis of Gasoline Demand in Ontario
 
-Attempted to create an (S)ARIMA model to forecast Ontario's gasoline demand using time series data.
+Created a SARIMA model to forecast Ontario's gasoline demand using time series data.
 
 Forecasting gas demand can indicate whether the existing supply is enough for future gas requirements. Creating a model that can forecast the demand of gasoline from past data would be very useful. An example application is from the perspective of a gasoline distributor, where one would be able to determine if sufficient gas is stored for the change of gas demand in the future. 
 
