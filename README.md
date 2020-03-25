@@ -6,4 +6,4 @@ Forecasting gas demand can indicate whether the existing supply is enough for fu
 
 Using the Box Jenkins Method, I first wanted a set of stationary data with stable variance and symmetric distribution, which I achieved using a log transformation and differencing at lags 12, to remove seasonality, and lag 1, to remove linear trend. Viewing the ACF and PACF of this data, I then fit some SARIMA models which I compared using AICc criterion. Then I tested these models using Shapiro-Wilk, Box-Pierce, Ljung-Box, and McLeod-Li tests to obtain a final stationary and invertible model with residuals that imitate gaussian white noise. Finally, I used this model to forecast the demand of gasoline in Ontario, which I compared with the test set values of demand. The forecasted values were not perfect but the true values were within the prediction interval of the model, so my final model did reasonably well. 
 
-Data is referenced from Abraham & Ledolter (1983). All code is run and compiled using RStudio.
+Data is referenced from Abraham & Ledolter (1983).
